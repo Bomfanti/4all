@@ -38,7 +38,7 @@ public class MainActivity extends AppCompatActivity {
                 int finalVar = var;
                 int finalVar1 = var;
 
-                //Random random = new Random();
+               
                 //int rNum = random.nextInt(aryLength);
                 //int rNum = 0;
                 System.out.println("var="+ finalVar1);
