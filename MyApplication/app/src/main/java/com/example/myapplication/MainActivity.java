@@ -25,9 +25,6 @@ public class MainActivity extends AppCompatActivity {
         screenView = findViewById(R.id.rView);
         clickMe= (Button) findViewById(R.id.button);
 
-
-
-
         clickMe.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -38,10 +35,9 @@ public class MainActivity extends AppCompatActivity {
                 int finalVar = var;
                 int finalVar1 = var;
 
-               
-                //int rNum = random.nextInt(aryLength);
-                //int rNum = 0;
-                System.out.println("var="+ finalVar1);
+                //int var = random.nextInt(aryLength);
+                //int var = 0;
+                System.out.println("var="+ finalVar1);   //só pra verificar
                 screenView.setBackgroundColor(color[finalVar]);
             }
         });
